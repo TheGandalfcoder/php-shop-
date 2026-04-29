@@ -1,5 +1,4 @@
 <?php
-<?php
 session_start();// for cart
 $id = $_POST['id'] ?? '';
 if (!ctype_digit($id)) die("Invalid product");
